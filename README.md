@@ -1,5 +1,5 @@
 
-![Logo](https://lh3.googleusercontent.com/P3y_bn2ZX0Qd9qMvSwa2vrxeFq7T7lKQSkyTYp9C3T86DcQVLiEXv8GSNgethzCmvyxf2w=s170)
+![Logo](https://st2.depositphotos.com/4398873/9234/v/950/depositphotos_92345772-stock-illustration-education-logo-concept.jpg)
 
 
 # Acadmica
@@ -31,13 +31,13 @@ This application includes three modules Admin, Teacher and Student contains feat
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/vickypl/Acadmica
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Acadmica
 ```
 
 Install dependencies
