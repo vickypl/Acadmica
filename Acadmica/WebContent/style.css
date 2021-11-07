@@ -1,0 +1,623 @@
+.body_design {
+    background-image: url("Images/bg.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: auto;
+}
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+}
+.navbar-inverse {
+    opacity: 0.9;
+}
+.navbar-inverse:hover {
+    color: red;
+}
+.bodyimage {
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 200px;
+    height: 200px;
+    transition: 0.7s;
+}
+.bodyimage:hover {
+	transition: 0.7s;
+    transform: rotate(20deg);
+    transform: rotate(-20deg);
+}
+.leftside {
+    background-color: black;
+    background: transparent;
+}
+.tagline {
+    font-size: 40px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.tagline:hover {
+	color: white;
+}
+.buttons {
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 4px;
+    background: transparent;
+    color: black;
+    border: 2px solid #555555;
+    transition: 0.7s;
+}
+.buttons:hover {
+	transition: 0.7s;
+    border-color: white;
+    background: black;
+    color: white;
+}
+.tablefront {
+    border-radius: 10px;
+    margin-top: 130px;
+    max-width: 80%;
+}
+.rightside {
+    width: 500px;
+    background: black;
+    opacity: 0.6;
+    border-radius: 4px;
+    -webkit-box-shadow: 3px 3px 5px 6px black; 
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+    transition: 0.7s;
+}
+.rightside:hover {
+    transition: 0.7s;
+    opacity: 0.9;
+}
+.inputbox {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+    color: white;
+    background: black;
+    padding: 10px;
+    width: 500px;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom-color: white;
+}
+.resfront {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 49%;
+}
+.resfront:hover {
+    color: green;
+}
+.about_center {
+	width: 80%;
+	font-family: cursive;
+    padding: 20px;
+    margin: 6% auto;
+    height: 170px;
+    background-color: white;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 100px;
+	transition: 0.8s;
+}
+.about_center:hover {
+    transition: 0.8s;
+    -webkit-box-shadow: 3px 3px 5px 6px white; 
+    -moz-box-shadow:    3px 3px 5px 6px white;
+    box-shadow:         3px 3px 5px 6px white;
+}
+.about_table {
+	margin: auto;
+	font-size: 50px;
+    text-align: center;
+}
+.mysocial {
+	margin: 0% auto;
+	height: 20%;
+	width: 80%;
+	text-align: center;
+}
+.fieldsetindex {
+    margin-top: 100px;
+    height: 10px;
+}
+.formPopup {
+    opacity: 0.8;
+    margin-top: auto;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    background: black;
+    -webkit-box-shadow: 3px 3px 5px 6px black; 
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+}
+.regbox {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 10px;
+}
+.reg-code-form {
+    padding: 10px;
+}
+.studentLoginform {
+    display: none;
+}
+.studentLoginform {
+    opacity: 0.8;
+    margin-top: auto;
+    margin: 1% auto;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    background: black;
+    -webkit-box-shadow: 3px 3px 5px 6px black; 
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;  
+}
+.studentLoginformtable, tr, td {
+    padding: 5px;
+    font-size: 20px;
+}
+.signupformbox {
+    width: 600px;
+    height: 530px;
+    margin: 2% auto;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+    position: relative;
+    -webkit-box-shadow: 3px 3px 5px 6px black; 
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+}
+.signuptable {
+    margin-left: 7px;
+    width: 600px;
+}
+.formOne {
+	transition: 0.5s;
+    display: block;
+}
+.formTwo {
+	transition: 0.5s;
+    display: none;
+}
+.formThree {
+	transition: 0.5s;
+    display: none;
+}
+.formFour {
+	transition: 0.5s;
+    display: none;
+}
+.studentsignformfield {
+    color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: white;
+    background-color: transparent;
+    width: 580px;
+    height: 40px;
+}
+.studentMenubar {
+    margin: auto;
+    border-color: white;
+    opacity: 0.8;
+    border: solid;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    border-width: 2px;
+}
+.studentSidebar {
+    border-color: white;
+    opacity: 0.8;
+    border: solid;
+    width: 300px;
+    height: 100%;
+    background-color: black;
+}
+/* profile picture system */
+
+.profilePicbox {
+    margin: 2% auto;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    margin-bottom: 30px;
+    border-color: white;
+    width: 260px;
+    height: 200px;
+    padding: 10px;
+}
+.profileimage {
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 500px;
+    width: 120px;
+    height: 120px;
+}
+
+.picoption{
+    margin: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#photoSubmit {
+    height: 30px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: black;
+    border: transparent;
+    color: white;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;  
+}
+
+#uploadBtn{
+    height: 30px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: black;
+    border: transparent;
+    color: white;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+/* end profile picture system */
+.sidebar-btn {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+}
+.sidebar-btn:hover {
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+}
+.mainmenu {
+    color: white;
+    text-align: right;
+}
+.contentbox {
+    opacity: 0.8;
+    padding: 1%;
+    border-radius: 1px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    -webkit-box-shadow: 3px 3px 5px 6px black; 
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+}
+
+.admincontentbox {
+    opacity: 0.8;
+    padding: 1%;
+    border-radius: 1px;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    -webkit-box-shadow: 3px 3px 5px 6px black; 
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;	
+}
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+/* side bar css start */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: absolute;
+    left: 250px;
+    width: 0;
+    height: auto;
+    height: auto;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    border-radius: 20px;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 280px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 280px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        border-style: solid;
+        border-color: white;
+        width: 280px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+.sidebarManage {
+    padding: 15px;
+}
+
+/* side bar css end */
+
+.codeVisual {
+    padding: 35px;
+    margin: 0% auto;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: green;
+    border-width: 10px;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* footer start  */
+.footer {
+    margin-top: 100px;
+    position: abolute;
+    background-color: black;
+    width: 100%;
+    height: 305px;
+	bottom: 0;
+}
+.footer_content {
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin: 4% auto;
+    padding: 10px;
+}
+.footer_social {
+    padding: 20px;
+}
+.footer_link {
+    padding: 20px;
+}
+/* footer end  */
+#loading {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('Images/load.gif') no-repeat center;
+}
+.adminloginpenal {
+	border-radius: 6px;
+	color: white;
+	padding: 15px;
+	background-color: black;
+	opacity: 0.8;
+	border: solid;
+	width: 350px;
+	height: 350px;
+	margin: 7% auto;
+	box-shadow: 5px 10px black;
+}
+.passwordrec {
+	border-radius: 6px;
+	color: white;
+	padding: 15px;
+	background-color: black;
+	opacity: 0.8;
+	border: solid;
+	width: 350px;
+	height: 350px;
+	margin: 7% auto;
+	box-shadow: 5px 10px black;	
+}
+#notibox {
+	visibility: visible;
+}
+.updateformbox {
+	margin: 0% auto;
+	height: 600px;
+	width: 62%;
+	background-color: black;
+	    -webkit-box-shadow: 3px 3px 5px 6px black; 
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+}
+
+/* typing animation */
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.coursecontentview {
+    padding: 1%;
+    border-radius: 1px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    -webkit-box-shadow: 3px 3px 5px 6px black; 
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+}
+.courseheading {
+	color: white;
+	font-family: cursive;
+	font-size: 25px;
+	text-align: center;
+	margin: 1% auto;
+	border-bottom: solid;
+	border-color: white;
+}
+.contentdom {
+	border-radius: 20px;
+	margin: 1% auto;
+	width: 90%;
+	height: 500px;
+	background-color: white;
+}
+.searchlook{
+	color: black;
+	background-color: black;
+	border-radius: 10px;
+	border-color: white;
+	border-style: solid;
+	margin-bottom: 20px;
+	background-color: blue;
+}
+.searchlook:HOVER {
+	border-color: blue;
+}
